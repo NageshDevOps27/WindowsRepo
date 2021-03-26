@@ -1,0 +1,69 @@
+* ls = lists files and directories.
+
+* ls -l = lists files and directories in long format.
+
+* mkdir = create a directory.
+
+* pwd = print present working directory.
+
+* cd = change directory.
+
+* touch = used to create an empty file.
+eg: touch filename.txt
+
+* ls -lt = will display recently created files at top.
+
+* ls -lrt = will display recently created files at bottom.
+
+* ls -a = will display all files along with hidden files.
+eg file1.txt
+   .file1.txt(hidden file)
+
+* cd .. = comes out of single directory.
+eg:/home/ubuntu/devops
+   cd ..
+   /home/ubuntu/
+
+* cd ../.. = comes out of two directories.
+
+* cd ../../... =  comes out of three directories.
+
+* cd / = comes to root directory.
+
+* cd ~ = comes to home directory.
+
+* vi = used to edit a file
+eg: vi filename.txt
+Esc:wq = save and quit gracefully.
+Esc:wq! = save and quit forcefully.
+Esc:q! = quit forecfully without saving.
+
+To replace a string in file:
+
+* Esc:%s/linux/windows/g = replace the string globally.
+* Esc:4s/linux/windows/g = replace the string only in 4th line.
+* Esc:1,10s/linux/windows/g = replace the string only from 1st to 10th line.
+* Esc:1s/linux/windows/1 = replace first string in fist line.
+
+* cat = used to display contents of file without opening it. 
+eg: cat filename.txt
+
+To get line numbers
+Esc:set nu
+Esc: set nonu
+
+Esc:dd = will delete the current line.
+
+* copy the file
+cp file1 file2
+
+* copy the directory
+mkdir tmp
+cp -r tmp tmp1
+
+* rename/move a file
+mv 'source' 'destination'
+eg: mv file1 file2
+
+  
+
